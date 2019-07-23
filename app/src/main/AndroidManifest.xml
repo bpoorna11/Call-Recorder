@@ -23,15 +23,13 @@
 
         <activity android:name=".MainActivity"
             android:noHistory="true">
-        </activity>
-        <activity android:name=".OtpActivity"
-            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         <service android:name=".RecordingService"></service>
         <service android:name=".UploadService"></service>
         <activity android:name=".SecondActivity1"></activity>
